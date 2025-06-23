@@ -6,7 +6,28 @@ header {
     padding: 0 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
 nav h1 {
-    font-size: 20px;
-    color: #FFFFFF;  
+    font-size: 20px; 
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;   
+}
+
+.menu-item {
+    font-size: 14px; 
+    padding-left: 10px;
+}
+
+.menu-active {
+    font-weight: 700;
 }

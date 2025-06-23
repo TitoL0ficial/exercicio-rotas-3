@@ -1,11 +1,10 @@
-import Button from "../../components/Button";
-import Header from "../../components/Header";
-import PageCard from "../../components/PageCard";
+import { Link } from "react-router-dom";
+import Button from "../../../components/Button";
+import PageCard from "../../../components/PageCard";
 
 export default function Subscription() {
     return(
         <>
-        <Header/>
         <main>
             <section>
                 <div className="container">
@@ -13,7 +12,9 @@ export default function Subscription() {
                         <PageCard title="Página de inscrição"/>
                     </div>
                     <div className="dflex">
-                        <Button text="Ver promoçào"/>
+                        <Link to="/promotion">
+                            <Button text="Ver promoção"/>
+                        </Link>
                     </div>
                 </div>
             </section>
